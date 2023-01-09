@@ -13,7 +13,7 @@ client.on('interactionCreate', (interaction) => {
 
 const commands = [{
     name: 'command',
-    description: 'description'
+    type: 2,
 }]
 
 const rest = new REST({version: '10'}).setToken(process.env.TOKEN)
